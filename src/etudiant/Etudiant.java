@@ -1,12 +1,32 @@
 package etudiant;
 
-public class Etudiant {
+public class Etudiant{
     /**
      *
      * Method main
      *
      * @param args
-     * caca
+     *
      **/
+    public static String nom;
+    public static Integer age;
 
+    public Etudiant(String n)
+    {
+        Etudiant.nom=n;
+    }
+    public void Travailler()
+    {
+        if(this.nom == "toto")
+        {
+            System.out.println(this.nom + " se met au travail"); // this == l'objet utilisé en cours
+        }
+    }
+    public void seReposer() // dans le même cas on a un this en dessous et en gros ça correspond à Etudiant toto
+    {
+        if(this.nom == "toto")
+        {
+            System.out.println(this.nom + " se repose");
+        }
+    }
 }
