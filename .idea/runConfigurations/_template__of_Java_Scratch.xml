@@ -1,0 +1,9 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="true" type="Java Scratch">
+    <option name="MAIN_CLASS_NAME" value="HelloWorld" />
+    <option name="SCRATCH_FILE_URL" value="file://$PROJECT_DIR$/HelloWorld.java" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>
