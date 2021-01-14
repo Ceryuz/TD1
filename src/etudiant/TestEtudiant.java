@@ -8,7 +8,7 @@ public class TestEtudiant {
         //  prout.age = 19;
         // System.out.println(prout.nom);
         // System.out.println(prout.age);
-        // Test
+        // Test 2
         // Exercices du TD
 
         Etudiant toto = new Etudiant("toto", 20);   // On déclare toto sauf que TOTO (Commit exo 3) utilise la class Etudiant qui est dans un fichier séparé

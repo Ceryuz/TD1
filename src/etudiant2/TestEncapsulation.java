@@ -6,7 +6,6 @@ public class TestEncapsulation {
         Etudiant Tata = new Etudiant("toto", 12);
         Tata.seReposer();
         Tata.Travailler();
-
     }
 
 }
