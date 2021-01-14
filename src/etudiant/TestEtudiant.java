@@ -11,11 +11,11 @@ public class TestEtudiant {
 
         // Exercices du TD
 
-        Etudiant toto = new Etudiant("toto");       // On déclare toto
-        Etudiant.age = 20;              // Et son age
-        System.out.println(Etudiant.nom);
-        System.out.println(Etudiant.age);
+        Etudiant toto = new Etudiant("toto", 20);   // On déclare toto sauf que TOTO (Commit exo 3) utilise la class Etudiant qui est dans un fichier séparé
+        System.out.println(toto.nom);       //on affiche le nom
+        System.out.println(toto.age);       //on affiche l'age
         toto.Travailler();
+        toto.seReposer();
 
     }
 }

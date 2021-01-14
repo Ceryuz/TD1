@@ -8,12 +8,13 @@ public class Etudiant{
      * @param args
      *
      **/
-    public static String nom;
-    public static Integer age;
+    public String nom;
+    public Integer age;
 
-    public Etudiant(String n)
+    public Etudiant(String n, Integer i)
     {
-        Etudiant.nom=n;
+        nom=n;
+        age=i;
     }
     public void Travailler()
     {
